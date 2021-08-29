@@ -63,7 +63,7 @@ class Register extends Component {
   }
 
   postUserDetails = async userDetails => {
-    const url = 'http://localhost:5000/register/'
+    const url = 'https://agile-woodland-97107.herokuapp.com/register/'
     console.log(JSON.stringify(userDetails))
     const options = {
       method: 'POST',

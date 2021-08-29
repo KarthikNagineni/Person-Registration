@@ -42,7 +42,7 @@ class UserList extends Component {
 
     console.log(stateCountryOption)
 
-    const url = `http://localhost:5000/users/?search_q=${stateSearch}&page=${statePage}&type=${stateType}&country=${stateCountryOption}&order=${stateOrder}  `
+    const url = `https://agile-woodland-97107.herokuapp.com/users/?search_q=${stateSearch}&page=${statePage}&type=${stateType}&country=${stateCountryOption}&order=${stateOrder}  `
     const options = {
       method: 'GET',
     }
@@ -78,7 +78,7 @@ class UserList extends Component {
 
   fetchAllCountries = async () => {
     const {stateCountiesList} = this.state
-    const countryUrl = 'http://localhost:5000/countries/'
+    const countryUrl = 'https://agile-woodland-97107.herokuapp.com/countries/'
     const options = {
       method: 'GET',
     }
