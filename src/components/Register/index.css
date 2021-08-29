@@ -1,0 +1,100 @@
+.main-bg-container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 40px;
+  background-image: linear-gradient(to right, #1d976c, #93f9b9, #ecfccb);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.form-main-container {
+  width: 50%;
+  padding: 20px;
+}
+.form-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.main-heading {
+  font-size: 30px;
+  font-weight: bold;
+  color: #1e293b;
+  text-align: center;
+  font-family: 'Caviet';
+}
+.label-headings {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0px;
+}
+.input-text-style {
+  width: 200px;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #1e293b;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  outline: none;
+}
+.error-msg-style {
+  color: #ef0d36;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+}
+.success-msg-style {
+  color: #7c3aed;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+}
+.register-btn-cont {
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+}
+.register-btn {
+  width: 100px;
+  height: 35px;
+  border-width: 0px;
+  border-radius: 5px;
+  background-color: blue;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
+.all-users-btn-cont {
+  margin-top: 20px;
+  text-align: center;
+}
+.all-users-btn {
+  width: 100px;
+  height: 35px;
+  border-width: 0px;
+  border-radius: 5px;
+  background-color: yellow;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+}
+.main-image-container {
+  width: 50%;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.main-image {
+  width: 80%;
+  height: 50vh;
+}
